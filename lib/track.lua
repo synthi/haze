@@ -147,7 +147,7 @@ function Track:init()
 
     value = 10,
     value_min = 0,
-    value_max = 32,
+    value_max = 64,  -- change density to 64. //value_max = 32,
 
     color = C.CYAN,
     brightness = B.MID
@@ -162,7 +162,7 @@ function Track:init()
 
     value = 250,
     value_min = 1,
-    value_max = 1000,
+    value_max = 1500, --Change max size to 1500ms //value_max = 1000,
 
     color = C.BLUE,
     brightness = B.MID
